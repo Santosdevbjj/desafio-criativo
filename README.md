@@ -133,7 +133,6 @@ Documentado em detalhe em `docs/governanca_e_seguranca_dados.md`. Em síntese:
 
 ---
 
-> "O mercado de trabalho não contrata ferramenta, o mercado de trabalho contrata quem resolve problemas." — Meigarom Lopes
 
 **Autor:** Sérgio Santos — Cientista de Dados | Ambientes Críticos e Governança de Dados
 
