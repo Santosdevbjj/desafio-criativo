@@ -41,16 +41,7 @@ O objetivo principal é projetar, documentar e estruturar uma pipeline de engenh
 
 ---
 
-📂 Estrutura do Repositório
-docs/: Documentação detalhada da construção em 3 passos, prompt refinado e diretrizes de governança de dados.
-
-data/: Dataset sintético mockado representando interações de clientes via aplicativo, Pix, cartão e chat.
-
-prompts/: Arquivos de prompt prontos para produção em LLMs (ChatGPT, Claude, Gemini, Azure OpenAI).
-
-examples/: Exemplo exato da resposta esperada gerada pela IA.
-
-🚀 Como Executar este Projeto
+## 📂 Estrutura do Repositório
 
 ```
 desafio-criativo/
@@ -68,6 +59,19 @@ desafio-criativo/
 └── examples/
     └── expected_ai_output.md
 ```
+
+
+
+
+docs/: Documentação detalhada da construção em 3 passos, prompt refinado e diretrizes de governança de dados.
+
+data/: Dataset sintético mockado representando interações de clientes via aplicativo, Pix, cartão e chat.
+
+prompts/: Arquivos de prompt prontos para produção em LLMs (ChatGPT, Claude, Gemini, Azure OpenAI).
+
+examples/: Exemplo exato da resposta esperada gerada pela IA.
+
+🚀 Como Executar este Projeto
 
 
 
