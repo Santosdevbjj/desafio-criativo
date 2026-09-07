@@ -1,7 +1,7 @@
 
 ### 2. `docs/passo_1_intencao.md`
 
-```markdown
+
 # Passo 1: Definição de Intenção e Objetivo
 
 ## 📝 Respostas de Alinhamento Estratégico
