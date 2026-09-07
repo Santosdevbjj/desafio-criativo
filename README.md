@@ -39,6 +39,55 @@ O objetivo principal é projetar, documentar e estruturar uma pipeline de engenh
 
 ```
 
+---
+
+📂 Estrutura do Repositório
+docs/: Documentação detalhada da construção em 3 passos, prompt refinado e diretrizes de governança de dados.
+
+data/: Dataset sintético mockado representando interações de clientes via aplicativo, Pix, cartão e chat.
+
+prompts/: Arquivos de prompt prontos para produção em LLMs (ChatGPT, Claude, Gemini, Azure OpenAI).
+
+examples/: Exemplo exato da resposta esperada gerada pela IA.
+
+🚀 Como Executar este Projeto
+
+```
+desafio-criativo/
+├── README.md
+├── docs/
+│   ├── passo_1_intencao.md
+│   ├── passo_2_contexto_restricoes.md
+│   ├── passo_3_prompt_final.md
+│   └── governanca_e_seguranca_dados.md
+├── data/
+│   └── raw_customer_feedbacks.json
+├── prompts/
+│   ├── system_prompt.txt
+│   └── analysis_prompt.txt
+└── examples/
+    └── expected_ai_output.md
+```
+
+
+
+Acesse a pasta prompts/.
+
+Copie o conteúdo de system_prompt.txt e configure a instrução de sistema na sua LLM.
+
+Copie o conteúdo de analysis_prompt.txt adicionando os dados de data/raw_customer_feedbacks.json.
+
+Execute o prompt para obter a análise padronizada de CX.
+
+🛡️ Governança e Segurança de Dados (Cyber & LGPD)
+Em conformidade com as diretrizes de cibersegurança e proteção de dados bancários:
+
+Zero PII Exposure: Nenhum dado PII (CPF, número de conta, nome completo, telefone) é enviado ao modelo.
+
+Hallucination Containment: Instruções estritas de restrição (Grounding) garantem que a IA não invente métricas não presentes na base.
+
+
+
 
 ---
 
