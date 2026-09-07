@@ -1,0 +1,34 @@
+[
+  {
+    "id_feedback": "FB-001",
+    "data_registro": "2026-03-01",
+    "canal": "App Mobile",
+    "produto": "Pix",
+    "nota_satisfacao": 1,
+    "texto_feedback": "O Pix ficou fora do ar durante todo o horário do almoço. Tentei pagar uma conta e deu erro 500. Um absurdo!"
+  },
+  {
+    "id_feedback": "FB-002",
+    "data_registro": "2026-03-01",
+    "canal": "Chat",
+    "produto": "Cartão de Crédito",
+    "nota_satisfacao": 2,
+    "texto_feedback": "O robô do chat não entende quando peço a segunda via da fatura. Fiquei 20 minutos tentando falar com um humano."
+  },
+  {
+    "id_feedback": "FB-003",
+    "data_registro": "2026-03-02",
+    "canal": "App Mobile",
+    "produto": "Investimentos",
+    "nota_satisfacao": 5,
+    "texto_feedback": "A nova interface de investimentos ficou excelente! Muito simples aplicar no Tesouro Direto agora."
+  },
+  {
+    "id_feedback": "FB-004",
+    "data_registro": "2026-03-02",
+    "canal": "Chat",
+    "produto": "Atendimento",
+    "nota_satisfacao": 1,
+    "texto_feedback": "Atendimento humano demorou mais de 40 minutos para responder e a conexão caiu no meio do processo."
+  }
+]
